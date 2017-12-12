@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class Product {
 		
-		private LinkedList range;
+		private LinkedList<Phase> range;
 		
 	
 		public Product()
@@ -16,7 +16,7 @@ public class Product {
 		 * 
 		 * @param pRange
 		 */
-		public Product(LinkedList pRange)
+		public Product(LinkedList<Phase> pRange)
 		{
 			this.range=pRange;
 		}
